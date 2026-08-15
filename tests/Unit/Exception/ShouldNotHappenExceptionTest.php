@@ -4,24 +4,61 @@ declare(strict_types=1);
 
 namespace Tests\Unit\Exception;
 
-use Ghostwriter\Wip\Exception\ShouldNotHappenException;
-use Ghostwriter\Wip\Interface\ExceptionInterface;
+use Exception;
+use Ghostwriter\Cache\Exception\ShouldNotHappenException;
+use Ghostwriter\Cache\Interface\CacheExceptionInterface;
+use Ghostwriter\PHPUnitAssertions\Trait\AssertionsTrait;
+use LogicException;
 use PHPUnit\Framework\Attributes\CoversClass;
-use PHPUnit\Framework\TestCase;
+use Psr\Cache\CacheException;
+use Stringable;
+use Tests\Unit\AbstractTestCase;
 use Throwable;
 
-use function is_a;
-
 #[CoversClass(ShouldNotHappenException::class)]
-final class ShouldNotHappenExceptionTest extends TestCase
+final class ShouldNotHappenExceptionTest extends AbstractTestCase
 {
-    /**
-     * @throws Throwable
-     */
-    public function testImplementsExceptionInterface(): void
-    {
-        self::assertTrue(is_a(ShouldNotHappenException::class, ExceptionInterface::class, true));
+    use AssertionsTrait;
 
-        self::assertTrue(is_a(ShouldNotHappenException::class, Throwable::class, true));
+    /** @throws Throwable */
+    public function testExtendsException(): void
+    {
+        self::assertClassExtendsClass(ShouldNotHappenException::class, Exception::class);
+    }
+
+    /** @throws Throwable */
+    public function testExtendsLogicException(): void
+    {
+        self::assertClassExtendsClass(ShouldNotHappenException::class, LogicException::class);
+    }
+
+    /** @throws Throwable */
+    public function testImplementsGhostwriterCacheInterfaceCacheExceptionInterface(): void
+    {
+        self::assertClassImplementsInterface(ShouldNotHappenException::class, CacheExceptionInterface::class);
+    }
+
+    /** @throws Throwable */
+    public function testImplementsPsrCacheCacheException(): void
+    {
+        self::assertClassImplementsInterface(ShouldNotHappenException::class, CacheException::class);
+    }
+
+    /** @throws Throwable */
+    public function testImplementsPsrSimpleCacheCacheException(): void
+    {
+        self::assertClassImplementsInterface(ShouldNotHappenException::class, \Psr\SimpleCache\CacheException::class);
+    }
+
+    /** @throws Throwable */
+    public function testImplementsStringable(): void
+    {
+        self::assertClassImplementsInterface(ShouldNotHappenException::class, Stringable::class);
+    }
+
+    /** @throws Throwable */
+    public function testImplementsThrowable(): void
+    {
+        self::assertClassImplementsInterface(ShouldNotHappenException::class, Throwable::class);
     }
 }
