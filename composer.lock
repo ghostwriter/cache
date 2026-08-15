@@ -4,97 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "43978a65b3c5c3b38c26885cd1aabaec",
+    "content-hash": "c09ea4fbaf5f5212c95e41beb165199a",
     "packages": [
-        {
-            "name": "ghostwriter/case-converter",
-            "version": "2.2.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ghostwriter/case-converter.git",
-                "reference": "87dba3bcb7bf6909cc721988ef35d1ee16a95545"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/case-converter/zipball/87dba3bcb7bf6909cc721988ef35d1ee16a95545",
-                "reference": "87dba3bcb7bf6909cc721988ef35d1ee16a95545",
-                "shasum": ""
-            },
-            "require": {
-                "ext-mbstring": "*",
-                "php": "~8.4.0 || ~8.5.0"
-            },
-            "require-dev": {
-                "ext-xdebug": "*",
-                "ghostwriter/coding-standard": "dev-main",
-                "ghostwriter/container": "^7.0.1",
-                "mockery/mockery": "^1.6.12",
-                "phpunit/phpunit": "^13.1.7",
-                "symfony/var-dumper": "^8.0.8"
-            },
-            "type": "library",
-            "extra": {
-                "thanks": {
-                    "url": "https://github.com/ghostwriter/case-converter",
-                    "name": "ghostwriter/case-converter"
-                },
-                "ghostwriter": {
-                    "container": {
-                        "provider": [
-                            "Ghostwriter\\CaseConverter\\Container\\CaseConverterProvider"
-                        ]
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Ghostwriter\\CaseConverter\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Nathanael Esayeas",
-                    "email": "nathanael.esayeas@protonmail.com",
-                    "homepage": "https://github.com/ghostwriter",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Convert strings from and to AdaCase, CamelCase, CobolCase, KebabCase, Lowercase, MacroCase, PascalCase, SentenceCase, SnakeCase, TitleCase, TrainCase, and Uppercase",
-            "homepage": "https://github.com/ghostwriter/case-converter",
-            "keywords": [
-                "ada-case",
-                "camel-case",
-                "case-converter",
-                "cobol-case",
-                "ghostwriter",
-                "kebab-case",
-                "lower-case",
-                "macro-case",
-                "pascal-case",
-                "sentence-case",
-                "snake-case",
-                "title-case",
-                "train-case",
-                "upper-case"
-            ],
-            "support": {
-                "issues": "https://github.com/ghostwriter/case-converter/issues",
-                "rss": "https://github.com/ghostwriter/case-converter/releases.atom",
-                "security": "https://github.com/ghostwriter/case-converter/security/advisories/new",
-                "source": "https://github.com/ghostwriter/case-converter"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/sponsors/ghostwriter",
-                    "type": "github"
-                }
-            ],
-            "time": "2026-04-22T20:29:50+00:00"
-        },
         {
             "name": "ghostwriter/clock",
             "version": "3.0.2",
@@ -174,158 +85,6 @@
                 }
             ],
             "time": "2026-05-27T07:46:54+00:00"
-        },
-        {
-            "name": "ghostwriter/collection",
-            "version": "2.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ghostwriter/collection.git",
-                "reference": "41fa87c02630630fee56847c11ce929012e26ca4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/collection/zipball/41fa87c02630630fee56847c11ce929012e26ca4",
-                "reference": "41fa87c02630630fee56847c11ce929012e26ca4",
-                "shasum": ""
-            },
-            "require": {
-                "ext-mbstring": "*",
-                "php": "~8.4.0 || ~8.5.0 || ~8.6.0"
-            },
-            "require-dev": {
-                "boundwize/structarmed": "^0.13.4",
-                "ext-xdebug": "*",
-                "ghostwriter/coding-standard": "dev-main",
-                "ghostwriter/phpunit-assertions": "^0.1.0",
-                "ghostwriter/testify": "^0.1.2",
-                "mockery/mockery": "^1.6.12",
-                "phpunit/phpunit": "^13.2.1",
-                "symfony/var-dumper": "^8.1.0"
-            },
-            "type": "library",
-            "extra": {
-                "thanks": {
-                    "url": "https://github.com/ghostwriter/collection",
-                    "name": "ghostwriter/collection"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Ghostwriter\\Collection\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Nathanael Esayeas",
-                    "email": "nathanael.esayeas@protonmail.com",
-                    "homepage": "https://github.com/ghostwriter",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Provides a Collection implementation for PHP",
-            "homepage": "https://github.com/ghostwriter/collection",
-            "keywords": [
-                "collection",
-                "ghostwriter"
-            ],
-            "support": {
-                "issues": "https://github.com/ghostwriter/collection/issues",
-                "rss": "https://github.com/ghostwriter/collection/releases.atom",
-                "security": "https://github.com/ghostwriter/collection/security/advisories/new",
-                "source": "https://github.com/ghostwriter/collection"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/sponsors/ghostwriter",
-                    "type": "github"
-                },
-                {
-                    "url": "https://paypal.me/codepoet",
-                    "type": "paypal"
-                }
-            ],
-            "time": "2026-06-19T17:50:36+00:00"
-        },
-        {
-            "name": "ghostwriter/config",
-            "version": "2.1.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ghostwriter/config.git",
-                "reference": "75cf15f580cb3da99aae394692a9d2781273778f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/config/zipball/75cf15f580cb3da99aae394692a9d2781273778f",
-                "reference": "75cf15f580cb3da99aae394692a9d2781273778f",
-                "shasum": ""
-            },
-            "require": {
-                "php": "~8.4.0 || ~8.5.0"
-            },
-            "require-dev": {
-                "ext-xdebug": "*",
-                "ghostwriter/coding-standard": "dev-main",
-                "ghostwriter/container": "^7.0.0",
-                "mockery/mockery": "^1.6.12",
-                "phpunit/phpunit": "^13.1.7",
-                "symfony/var-dumper": "^8.0.8"
-            },
-            "type": "library",
-            "extra": {
-                "thanks": {
-                    "url": "https://github.com/ghostwriter/config",
-                    "name": "ghostwriter/config"
-                },
-                "ghostwriter": {
-                    "container": {
-                        "provider": [
-                            "Ghostwriter\\Config\\Container\\ConfigurationProvider"
-                        ]
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Ghostwriter\\Config\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Nathanael Esayeas",
-                    "email": "nathanael.esayeas@protonmail.com",
-                    "homepage": "https://github.com/ghostwriter",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Provides an object that maps configuration keys to values.",
-            "homepage": "https://github.com/ghostwriter/config",
-            "keywords": [
-                "config",
-                "ghostwriter"
-            ],
-            "support": {
-                "issues": "https://github.com/ghostwriter/config/issues",
-                "rss": "https://github.com/ghostwriter/config/releases.atom",
-                "security": "https://github.com/ghostwriter/config/security/advisories/new",
-                "source": "https://github.com/ghostwriter/config"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/sponsors/ghostwriter",
-                    "type": "github"
-                }
-            ],
-            "time": "2026-04-21T20:07:07+00:00"
         },
         {
             "name": "ghostwriter/container",
@@ -718,207 +477,53 @@
             "time": "2025-02-06T05:11:03+00:00"
         },
         {
-            "name": "ghostwriter/result",
-            "version": "2.0.0",
+            "name": "psr/cache",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ghostwriter/result.git",
-                "reference": "108e5bad16769b8d5a73c68481b4c2afe53627c4"
+                "url": "https://github.com/php-fig/cache.git",
+                "reference": "aa5030cfa5405eccfdcb1083ce040c2cb8d253bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/result/zipball/108e5bad16769b8d5a73c68481b4c2afe53627c4",
-                "reference": "108e5bad16769b8d5a73c68481b4c2afe53627c4",
+                "url": "https://api.github.com/repos/php-fig/cache/zipball/aa5030cfa5405eccfdcb1083ce040c2cb8d253bf",
+                "reference": "aa5030cfa5405eccfdcb1083ce040c2cb8d253bf",
                 "shasum": ""
             },
             "require": {
-                "ghostwriter/option": "^2.0.0",
-                "php": ">=8.4"
-            },
-            "require-dev": {
-                "ghostwriter/coding-standard": "dev-main"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Ghostwriter\\Result\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Nathanael Esayeas",
-                    "email": "nathanael.esayeas@protonmail.com",
-                    "homepage": "https://github.com/ghostwriter",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Provides a Result type implementation for PHP",
-            "homepage": "https://github.com/ghostwriter/result",
-            "keywords": [
-                "ghostwriter",
-                "result"
-            ],
-            "support": {
-                "issues": "https://github.com/ghostwriter/result/issues",
-                "rss": "https://github.com/ghostwriter/result/releases.atom",
-                "security": "https://github.com/ghostwriter/result/security/advisories/new",
-                "source": "https://github.com/ghostwriter/result"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/sponsors/ghostwriter",
-                    "type": "github"
-                }
-            ],
-            "time": "2025-02-10T06:12:07+00:00"
-        },
-        {
-            "name": "ghostwriter/shell",
-            "version": "0.1.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ghostwriter/shell.git",
-                "reference": "1c828a371adf6d3de20546ce6de7000ca3cbb559"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/shell/zipball/1c828a371adf6d3de20546ce6de7000ca3cbb559",
-                "reference": "1c828a371adf6d3de20546ce6de7000ca3cbb559",
-                "shasum": ""
-            },
-            "require": {
-                "php": "~8.4.0 || ~8.5.0 || ~8.6.0"
-            },
-            "require-dev": {
-                "boundwize/structarmed": "^0.13.4",
-                "ext-xdebug": "*",
-                "ghostwriter/coding-standard": "dev-main",
-                "ghostwriter/container": "^7.0.2",
-                "ghostwriter/phpunit-assertions": "^0.1.0",
-                "ghostwriter/testify": "^0.1.2",
-                "mockery/mockery": "^1.6.12",
-                "phpunit/phpunit": "^13.2.1",
-                "symfony/var-dumper": "^8.1.0"
+                "php": ">=8.0.0"
             },
             "type": "library",
             "extra": {
-                "thanks": {
-                    "url": "https://github.com/ghostwriter/shell",
-                    "name": "ghostwriter/shell"
-                },
-                "ghostwriter": {
-                    "container": {
-                        "provider": [
-                            "Ghostwriter\\Shell\\Container\\ShellProvider"
-                        ]
-                    }
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "Ghostwriter\\Shell\\": "src"
+                    "Psr\\Cache\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "BSD-3-Clause"
+                "MIT"
             ],
             "authors": [
                 {
-                    "name": "Nathanael Esayeas",
-                    "email": "nathanael.esayeas@protonmail.com",
-                    "homepage": "https://github.com/ghostwriter",
-                    "role": "Developer"
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
                 }
             ],
-            "description": "Execute commands and external programs",
-            "homepage": "https://github.com/ghostwriter/shell",
+            "description": "Common interface for caching libraries",
             "keywords": [
-                "ghostwriter",
-                "process",
-                "shell"
+                "cache",
+                "psr",
+                "psr-6"
             ],
             "support": {
-                "issues": "https://github.com/ghostwriter/shell/issues",
-                "rss": "https://github.com/ghostwriter/shell/releases.atom",
-                "security": "https://github.com/ghostwriter/shell/security/advisories/new",
-                "source": "https://github.com/ghostwriter/shell"
+                "source": "https://github.com/php-fig/cache/tree/3.0.0"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/sponsors/ghostwriter",
-                    "type": "github"
-                },
-                {
-                    "url": "https://paypal.me/codepoet",
-                    "type": "paypal"
-                }
-            ],
-            "time": "2026-06-19T18:01:42+00:00"
-        },
-        {
-            "name": "ghostwriter/uuid",
-            "version": "1.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ghostwriter/uuid.git",
-                "reference": "3e34ec75ee18aa4a7cf9b20bc821dc572d1209b9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/uuid/zipball/3e34ec75ee18aa4a7cf9b20bc821dc572d1209b9",
-                "reference": "3e34ec75ee18aa4a7cf9b20bc821dc572d1209b9",
-                "shasum": ""
-            },
-            "require": {
-                "ext-mbstring": "*",
-                "php": "^8.4"
-            },
-            "require-dev": {
-                "ghostwriter/coding-standard": "dev-main"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Ghostwriter\\Uuid\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Nathanael Esayeas",
-                    "email": "nathanael.esayeas@protonmail.com",
-                    "homepage": "https://github.com/ghostwriter",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Version 7 UUIDs using a Unix timestamp for PHP",
-            "homepage": "https://github.com/ghostwriter/uuid",
-            "keywords": [
-                "ghostwriter",
-                "uuid"
-            ],
-            "support": {
-                "docs": "https://github.com/ghostwriter/uuid",
-                "issues": "https://github.com/ghostwriter/uuid/issues",
-                "rss": "https://github.com/ghostwriter/uuid/releases.atom",
-                "security": "https://github.com/ghostwriter/uuid/security/advisories/new",
-                "source": "https://github.com/ghostwriter/uuid"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/sponsors/ghostwriter",
-                    "type": "github"
-                }
-            ],
-            "time": "2025-03-17T20:27:11+00:00"
+            "time": "2021-02-03T23:26:27+00:00"
         },
         {
             "name": "psr/clock",
@@ -1070,6 +675,57 @@
                 "source": "https://github.com/php-fig/event-dispatcher/tree/1.0.0"
             },
             "time": "2019-01-08T18:20:26+00:00"
+        },
+        {
+            "name": "psr/simple-cache",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/simple-cache.git",
+                "reference": "764e0b3939f5ca87cb904f570ef9be2d78a07865"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/simple-cache/zipball/764e0b3939f5ca87cb904f570ef9be2d78a07865",
+                "reference": "764e0b3939f5ca87cb904f570ef9be2d78a07865",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\SimpleCache\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interfaces for simple caching",
+            "keywords": [
+                "cache",
+                "caching",
+                "psr",
+                "psr-16",
+                "simple-cache"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/simple-cache/tree/3.0.0"
+            },
+            "time": "2021-10-29T13:26:27+00:00"
         }
     ],
     "packages-dev": [
@@ -1079,12 +735,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/coding-standard.git",
-                "reference": "a5b672744984c25b10cea76bd590701a01b254c1"
+                "reference": "cbe980949bb1a596240b206beb88a14f33d61e40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/a5b672744984c25b10cea76bd590701a01b254c1",
-                "reference": "a5b672744984c25b10cea76bd590701a01b254c1",
+                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/cbe980949bb1a596240b206beb88a14f33d61e40",
+                "reference": "cbe980949bb1a596240b206beb88a14f33d61e40",
                 "shasum": ""
             },
             "require": {
@@ -1094,7 +750,6 @@
                 "ext-curl": "*",
                 "ext-dom": "*",
                 "ext-ds": "*",
-                "ext-event": "*",
                 "ext-exif": "*",
                 "ext-fileinfo": "*",
                 "ext-filter": "*",
@@ -1188,7 +843,7 @@
                     "type": "paypal"
                 }
             ],
-            "time": "2026-07-16T13:58:43+00:00"
+            "time": "2026-08-15T05:58:46+00:00"
         },
         {
             "name": "ghostwriter/phpunit-assertions",
